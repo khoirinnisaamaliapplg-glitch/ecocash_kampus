@@ -1,4 +1,5 @@
 import 'package:ecocash_kampus/home.dart';
+import 'package:ecocash_kampus/landingpage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MainApp extends StatelessWidget {
         useMaterial3: true,
         colorSchemeSeed: Colors.green, // Tema hijau untuk EcoCash
       ),
-      home: const HomeScreen(),
+      home: const SplashLandingPage(),
     );
   }
 }

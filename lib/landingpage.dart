@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 import 'Auth/login.dart';
 
-void main() {
-  runApp(const EcoCashKidsApp());
-}
-
 class EcoCashKidsApp extends StatelessWidget {
   const EcoCashKidsApp({super.key});
 
